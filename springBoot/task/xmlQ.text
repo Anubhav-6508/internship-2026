@@ -1,0 +1,21 @@
+Q1. Employee Management System
+
+A company maintains employee and department information.
+
+1. Create a Department class with departmentld and departmentName.
+2. Create an Employee class with employeeld, employeeName and Department.
+3. Create parameterized constructors.
+4. Configure both beans in XML.
+5. Inject Department into Employee using Constructor Injection.
+6. Retrieve Employee from the loC container and display the details.
+
+Q2. Bank Account Management
+
+A bank maintains customer account information.
+
+1. Create a Bank class with bankName and branchName.
+
+2. Create an Account class with accountNumber, accountHolderName and Bank.
+3. Configure both beans in XML.
+4. Inject Bank into Account using Constructor Injection.
+5. Retrieve Account using FileSystemXmlApplicationContext.
