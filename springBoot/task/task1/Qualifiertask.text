@@ -1,0 +1,34 @@
+Scenario
+A college needs a simple application to manage students and the courses they enroll in.
+Classes to create
+
+1. Course
+
+. courseld
+
+. courseName
+
+. courseFee
+
+2. Student
+
+. studentld
+
+. studentName
+
+. studentEmail
+
+3. CourseService
+
+. Maintain an ArrayList containing available courses.
+. Display all available courses.
+. Find a course by ID.
+
+4. StudentService
+
+. Maintain an ArrayList containing student records.
+. Inject CourseService using @Autowired.
+. Use @qualifier wherever required, based on the beans configured.
+. Register students.
+. Display registered students.
+. Display available courses using the injected CourseService.
